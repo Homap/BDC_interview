@@ -1,0 +1,27 @@
+name: bdc
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - python=3.11
+  - pip
+  # data handling
+  - pandas
+  - numpy
+  - scipy
+  # genomics in Python
+  - pysam
+  - cyvcf2
+  - biopython
+  # plotting
+  - matplotlib
+  - seaborn
+  # command-line tools for the inspection phase
+  - bcftools
+  - samtools
+  - htslib
+  - bedtools
+  # development
+  - pytest
+  - ipython
+  - ruff
